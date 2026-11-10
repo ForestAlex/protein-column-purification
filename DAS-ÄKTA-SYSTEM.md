@@ -1,3 +1,38 @@
+# Service
+
+- [ ] System muss **immer** laufen, wenn es im 4°C Kühlraum steht (**bei uns der Fall**). 
+- [ ] Einmal pro Woche die Kolbenhinterspülung tauschen (50 ml 20% Ethanol).
+- [ ] Einmal pro Monat den Filter im Mixer austauschen (vorfiltern der Puffer). Dafür Kappe abschrauben. Gummidichtung am Mixer lassen. Widerstand überwinden zum Aufdrehen. (Unten sitzt Rührknochen, braucht man nicht angreifen.) Man nimmt den Filter mit einer Pinzette heraus. Den runden Filter tauschen. Wenn das Gitter/Netz darunter beschädigt ist, dann dieses möglicherweise mittauschen. Mit dem Stempel evt. den Filter festdrücken. Gerade aufstellen und gerade zudrehen, damit der Rührknochen nicht beschädigt wird. (Kontrolle: Leicht schütteln und zuhören. Bei Klack-Klack-Klack ist alles okay).
+- [ ] ! Wenn der Druck größer als 0.2 MPa ohne Column ist, dann ist dieser Filter verstopft.
+- [ ] Bei Stromausfall **48 h** in der Raumtemperatur auftauen lassen. Und dann wieder auf **4°C** stellen.
+
+**Tubings**
+
+- grün = 0.75 µm (größerer Durchmesser, für besserer Volumentransport)
+- orange = 0.5 µm (kleinerer Durchmesser, für bessere Auflösung, auch zu Fraktionator)
+
+
+# Neue Konnektoren an ÄKTA anschließen
+
+- [ ] ! System abschalten. (Alles außer Mixer hat alles elektronisch. Strom vs. Daten laufen immer über dasselbe Kabel.)
+- [ ] Auf der Rückseite _Uninet_ Konnektoren. (grau = _firewire_ F9R, schwarz = _größer_). Wenn nichts angeschlossen ist, dann ist **Terminatorwiderstand** als Platzhalter dort. In der Box aufbewahren, wenn Komponente angesteckt wird.
+- [ ] Auf dem Bauteil befindet 
+- [ ] Bei 4°C Kühlraum kann man das System für max. **15 min.** (Risiko: Kondenswasser) abschalten.
+
+
+# 0. Tubing und Verbindungen
+
+Tubing nicht mit Werkzeugen festziehen. Kapillaren 1-2 mm abschneiden von dem Tubing. Wenn die _fingertight connectoren_ sich gar nicht mehr bewegen, sollte man diese austauchen.
+
+! Bei _fingertight connections_ den Schlauch beim Hineinschrauben hineinstecken. Danach mit leichtem Gegenzug testen.
+
+! Nicht mit Werkzeugen bei Undichtheiten festziehen. Nur öffnen mit Werkzeugen. Bei Undichtheiten liegt es an den Komponenten.
+
+! Tubing mit der **glatten** und nicht der **schrägen** Seite des Kapillarcutters abschneiden (Orientierung für Klinge an Pfeil).
+
+Auf manchen Komponenten befinden sich RFD-Chips. Mixer kann man z.B. tauschen bei 1-10 ml/min (1.4 ml Mixer gut). Bei 20-25 ml/min (5 ml Mixer).
+
+
 # 1. Probeneinlass
 
 Luftsensor (_Air Sensor_) um zu verhindern. 
@@ -76,3 +111,16 @@ Der _Flow-Through_ sollte sammelbar sein, das _Peak-to-Loop_ kann extra eingefü
 
 * OUT 1 = für Fraktionssammler
 * WASTE
+
+# 13. Fractionator F9R Karussel
+
+! Tubing auf die richtige Länge mit dem _Tube Adjustment_ Tiefloch am Arm einstellen. Aufschrauben des _fingertight connectors_ und dann auf richtige Tiefe einstellen, und dann wieder schwarz am Connector zuschrauben.
+
+Für Drehung: den Arm auf die Seite drehen. Danach den schwarzen Knob auf der Seite mitöffnen bei Bewegung des Karussels.
+
+Für Einstellung des Arms: Höhe einstellen und _tube fit sensor_ gut einstellen. (Wenn dies nicht der Fall ist, dann ist der Sensor evt. kaputt. Dann mit hoher Prozentigkeit an Isopropanol waschen des Sensors bevor man ihn nachbestellt.)
+
+# Möglich: Versatile valve
+
+* Beispielsweise verschiedene Säulen einschalten.
+* Beispielsweise verschiedene Detektoren zwischenschalten.
