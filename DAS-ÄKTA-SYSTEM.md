@@ -8,8 +8,11 @@
 
 **Tubings**
 
-- grün = 0.75 µm (größerer Durchmesser, für besserer Volumentransport)
-- orange = 0.5 µm (kleinerer Durchmesser, für bessere Auflösung, auch zu Fraktionator)
+
+- beige = 1 mm
+- grün = 0.75 mm (größerer Durchmesser, für besserer Volumentransport)
+- orange = 0.50 mm (kleinerer Durchmesser, für bessere Auflösung, auch zu Fraktionator)
+- blau = 0.25 mm
 
 
 # Neue Konnektoren an ÄKTA anschließen
@@ -119,6 +122,10 @@ Der _Flow-Through_ sollte sammelbar sein, das _Peak-to-Loop_ kann extra eingefü
 Für Drehung: den Arm auf die Seite drehen. Danach den schwarzen Knob auf der Seite mitöffnen bei Bewegung des Karussels.
 
 Für Einstellung des Arms: Höhe einstellen und _tube fit sensor_ gut einstellen. (Wenn dies nicht der Fall ist, dann ist der Sensor evt. kaputt. Dann mit hoher Prozentigkeit an Isopropanol waschen des Sensors bevor man ihn nachbestellt.)
+
+# 14. Fractionator F9C mit dem Plattensensor
+
+Die Plattenadaptoren werden automatisch erkannt. Die Kamera macht sogar bei 96-well Platten noch extra ein Foto, um sich den Plattentyp zu lernen. Weiße Abdeckung am Arm entfernen. Mit dünnem Seidenpapier (wie bei NanoDrop) mit Ethanol reinigen. Kamera und _Drop Sync_ Sensor reinigen.
 
 # Möglich: Versatile valve
 
