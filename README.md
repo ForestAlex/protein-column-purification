@@ -4,6 +4,16 @@ An ÄKTA protocol and method introduction.
 
 (Roland Viertlmayr)
 
+----------------------------
+Learnings:
+* use a 20-40 mM imidazole buffer for washing, only use 1x IMAC
+* use Option 1: Size Exclusion (SEC) and then pool fractions
+* use Option 2: IEX and then pool fractions (proteins will likely separate)
+* use a 3-wavelength detector where you can monitor 3-wavelengths at the same time
+
+
+----------------------------
+
 ## Vor der Chromatographie
 
 - [ ] Basisparameter des Proteins kennen: `pI, Exc. Coeff., MW (molecular weight)`
@@ -48,3 +58,40 @@ An ÄKTA protocol and method introduction.
 - [ ] schneller Schritt: frühe Capture und schnelle Trennung von Proteasen
 - [ ] letze Schritte: Aufreinigung
 - peak-to-loop Elution kann helfen, um weniger Protein in Schritten zu verlieren
+
+(vgl. Abb. 7): IEX immer, HIC nur für Polishing, SEC nur für Polishing, AC nur für Capture
+
+
+### Performance Parameters 
+**CSRR**: Capacity, Speed, Resolution, Recovery
+! Man kann nur 2 pro Schritt machen.
+- Capture: Speed + Capacity (beispielsweise His-FF, HIC Sepharose-FF) 1x Reinigung
+- Polishing: Capacity + Resolution (beispielsweise HIC Sepharose-FF) 2x Reinigung von anderen Proteinen
+- Polishing: Resolution + Recovery (beispielszweise SEC, IEC mit sehr flachem Gradient, -P vs. +P nur 1 Phosphorylierung) 3x Reinigung oft nur von anderen Isoformen
+
+## Chromatografie: Allgemeine Vorbereitung
+1. Equilibration of Column (to Sample Conditions)
+2. Sample Application
+3. Wash
+4. Elution
+5. Equilibration of Column (to Storage Solution)
+
+**Entscheidung für Aufreinigungsschritte**
+
+(vgl. Abb. 8): 1-Schritt (>80%), 2-Schritt (>95%), 3-Schritt Aufreinigung (>99%)
+
+- [ ] 1-Schritt: AC + Dialyse + Aufkonzentration
+- [ ] 2-Schritt: AC + (Dialyse) + SEC + Aufkonzentration
+- [ ] 3-Schritt: AC + IEX + (Dialyse) + SEC + Aufkonzentration
+
+z.B. AC HisTrap FF (90 µm), AIEX Resource Q 7.6 pH (linear gradient), SEC 75 10/300 GL
+
+### Auswahl der Säule
+- FF = fast flow (90 µm) hohe Flussraten und schlechte Auftrennung
+- HP = high performance (34 µm) Trennung der beiden Peaks (aber UV-Signal in rot zeigt, das Protein immer noch in Shoulder)
+- Resouce S (15 µm, alle Partikel gleich groß)
+- Mini S (3 µm, alle Partikel gleich groß)
+
+(vgl. Abb. 9): rotes UV-Signal des Targetproteins vs. allgemeines UV-Signal welches die Säule zu trennen schafft
+
+_Manual protein purification and tools for process development_ (mit Zentrifuge bis zu 96x verschiedene Puffer)
