@@ -19,6 +19,8 @@
          * _Outlet valve [ Waste/Fractionator ]_
          * _System flow_
          * _Other_ (Timer)
+  8. [ ] Nach Waschen, pausieren (⏸), Säule anschließen, starten
+  9. [ ] Nach Equilibration, Loop anschließen
 
 ! Bei **STOP** (⏹) werden alle Ventile und Druckalarme zurückgesetzt.
 
@@ -86,4 +88,13 @@ Im _Process Picture_ die _Pressure Alarms_ auf _Pre Column Pressure_ und _Max. D
 - [ ] oben (E) und unten (F = fill) anschließen an das Ventil
 - [ ] mit einer Spritze das Volumen in den Loop spülen (movable seal)
 - [ ] mit dem _Inject_ Volumenfluss die Probe ausspülen (mehr Volumen kann ausgespült werden)
+
+
+## Säule
+
+Säule braucht _female-female Union_ Adapter. Wir geben von **1B** zu **2A**.
+
+Rote Connectoren: für weichere Säulen (wenn diese auch rot sind)
+
+Schwarze Connectoren: ältere Connectoren, härteres Material
 
