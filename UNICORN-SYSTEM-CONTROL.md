@@ -60,3 +60,30 @@ Säulenparameter in _Column Type Parameters_ anschauen.
 * max. delta column pressure (Material innerhalb der Säule hält dies aus)
 
 Im _Process Picture_ die _Pressure Alarms_ auf _Pre Column Pressure_ und _Max. Delta Column Pressure_ angeben. Ab Unicorn 7.10 können die Columnparameter direkt eingestellt werden. 
+
+# Pumpe entlüften
+
+! Wichtig. Aufpassen, dass man nicht zu viel das Ventil öffnet. Bei zu viel öffnen, zieht man Umgebungsluft. Bei zu wenig öffnen "zieht" man und "entgast" man den Puffer. Normalerweise mit stillstehendem System arbeiten. Später idealerweise bei laufenden Pumpen entlüften.
+
+! Entlüften testen/üben über: Ventil zulassen. Spritze anstecken. Ziehen, bis die Pumpe "stark gegenzieht". Nun Ventil öffnen bis "
+
+
+# System Preparation
+- [ ] Tubes transferrieren
+- [ ] für jede Lösung einen _Pump Wash_ (Wasser, 20% EtOH)
+- [ ] Lösungen nachher für Puffer tauschen (Binding Buffer, Elution Buffer)
+- [ ] für jeden Puffer einen _Pump Wash_ (! zuerst Elution, dann Binding Wash, damit das System in Binding fertig vorliegt)
+- [ ] Pumpen entlüften (20 ml Spritze über silberfarbenem Pumpenkopf an das schwarze Purge-Ventil anstecken, den Schlauch braucht es nicht) bis nach Öffnen des schwarzen Ventils keine Luft mehr in die Spritze fließt. Für alle Pumpenköpfe wiederholen.
+
+## Loop anschließen
+- [ ] 500 µl Kapillarloop von _E → F_ anschließen.
+- [ ] Spritze anschließen mit Bindungspuffer.
+- [ ] Durch Spritze Kapillarloop mit mehreren Volumen Bindungspuffer anschließen.
+- [ ] Spritze zu Spritze mit Probe rasch tauschen. Durch Probenspritze den Kapillarloop laden. **Spritze nun dranstecken lassen, ansonsten hat man ein offenes System zu dem Waste.**
+
+## Superloop
+- [ ] benötigt den **System Pressure** Alarm (der Superloop befindet sich vor der Column, würde ansonsten den Pre-Column Pressure nicht fühlen und zerbrechen).
+- [ ] oben (E) und unten (F = fill) anschließen an das Ventil
+- [ ] mit einer Spritze das Volumen in den Loop spülen (movable seal)
+- [ ] mit dem _Inject_ Volumenfluss die Probe ausspülen (mehr Volumen kann ausgespült werden)
+
