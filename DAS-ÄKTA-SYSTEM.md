@@ -2,6 +2,7 @@
 
 - [ ] System muss **immer** laufen, wenn es im 4°C Kühlraum steht (**bei uns der Fall**). 
 - [ ] Einmal pro Woche die Kolbenhinterspülung tauschen (50 ml 20% Ethanol).
+- [ ] System ab und an gut aus- und einschalten (damit die UV-Zellen einen Abgleich zwischen Referenz).
 - [ ] Einmal pro Monat den Filter im Mixer austauschen (vorfiltern der Puffer). Dafür Kappe abschrauben. Gummidichtung am Mixer lassen. Widerstand überwinden zum Aufdrehen. (Unten sitzt Rührknochen, braucht man nicht angreifen.) Man nimmt den Filter mit einer Pinzette heraus. Den runden Filter tauschen. Wenn das Gitter/Netz darunter beschädigt ist, dann dieses möglicherweise mittauschen. Mit dem Stempel evt. den Filter festdrücken. Gerade aufstellen und gerade zudrehen, damit der Rührknochen nicht beschädigt wird. (Kontrolle: Leicht schütteln und zuhören. Bei Klack-Klack-Klack ist alles okay).
 - [ ] ! Wenn der Druck größer als 0.2 MPa ohne Column ist, dann ist dieser Filter verstopft.
 - [ ] Bei Stromausfall **48 h** in der Raumtemperatur auftauen lassen. Und dann wieder auf **4°C** stellen.
@@ -21,6 +22,33 @@
 - [ ] Auf der Rückseite _Uninet_ Konnektoren. (grau = _firewire_ F9R, schwarz = _größer_). Wenn nichts angeschlossen ist, dann ist **Terminatorwiderstand** als Platzhalter dort. In der Box aufbewahren, wenn Komponente angesteckt wird.
 - [ ] Auf dem Bauteil befindet 
 - [ ] Bei 4°C Kühlraum kann man das System für max. **15 min.** (Risiko: Kondenswasser) abschalten.
+
+**Flow Restrictor**
+
+_System Flow Restrictor_ auf die Pumpe setzen (über Drucksensor) (siehe Abb. 22). Dann an der Schraube bei einem Fluss von 2.3 ml/min drehen, bis der _System Pressure Sensor_ auf 0.2 MPa steht.
+
+**Rotor Start Ventile reinigen**
+
+Flussweg ist standardmäßig offen und in der Mitte sitzt ein Rotor, der sich dreht. Wenn es ein Problem gibt:
+
+- [ ] Alle Tubings entfernen. (Einmal schauen, wie die Beschriftungen sind, damit man es wieder anschließen kann, z.B. SYR = syringe, SYS/P = system/system pressure).
+- [ ] Mit einem Torck-20 Schraubenzieher darf man an der eigenen ÄKTA arbeiten. Den Stator des Ventils dabei herunterschrauben.
+- [ ] Die Statoren und den kleinen Rotor mit ultraschall oder Isopropanol reinigen.
+- [ ] Nun den kleinen Rotor zuerst an der ÄKTA einsetzen (siehe Abb. 23) und dann die Schrauben parallel gegenziehen.
+- [ ] Die Drucksensoren müssen evt. beim Säulenventil nochmal kalibriert werden.
+
+**UV Sensor waschen**
+
+Siehe Abb. 23. Am _Column Valve_ abschrauben. Mit Natronlauge und Spritzen von unten nach oben durchwaschen und inkubieren. Wie erkennt man das? ÄKTA kurz aus- und einschalten (dann kalibrieren sich die Sensoren) und wenn man 100-200 mAu über der Baseline liegt bei Wasser, dann waschen. 
+
+Für kleineren Sensor siehe Abb. 24. gänzlich ausbauen und dann 
+
+**System Pressure Probleme**
+- [ ] gesamten Flow-Path prüfen: Komponenten der Reihe nach Abschrauben, und mit Fluss starten. Dann wieder zusammenschrauben, dann nächste Komponente.
+- [ ] Sind es evt. abgeknickte Schläuche?
+- [ ] Sind es evt. eingequetschte Schläuche?
+- [ ] Sind evt. Ventile zu putzen?
+- [ ] Sind Filter im Mixer auszutauschen?
 
 
 # 0. Tubing und Verbindungen
@@ -102,19 +130,7 @@ Sehr stabil, kaum Notwendigkeit für Kalibrierung. Mit einem schwarzen Ring: **F
 
 ! ENTGASUNG: Nach der Säule sollte sich der Druck nicht auf 0 absenken. Der Flow Restriktor garantiert einen Gegendruck, damit nachher nicht der Puffer plötzlich entgast.
 
-**Flow Restrictor**
 
-_System Flow Restrictor_ auf die Pumpe setzen (über Drucksensor) (siehe Abb. 22). Dann an der Schraube bei einem Fluss von 2.3 ml/min drehen, bis der _System Pressure Sensor_ auf 0.2 MPa steht.
-
-**Rotor Start Ventile**
-
-Flussweg ist standardmäßig offen und in der Mitte sitzt ein Rotor, der sich dreht. Wenn es ein Problem gibt:
-
-- [ ] Alle Tubings entfernen. (Einmal schauen, wie die Beschriftungen sind, damit man es wieder anschließen kann, z.B. SYR = syringe, SYS/P = system/system pressure).
-- [ ] Mit einem Torck-20 Schraubenzieher darf man an der eigenen ÄKTA arbeiten. Den Stator des Ventils dabei herunterschrauben.
-- [ ] Die Statoren und den kleinen Rotor mit ultraschall oder Isopropanol reinigen.
-- [ ] Nun den kleinen Rotor zuerst an der ÄKTA einsetzen (siehe Abb. 23) und dann die Schrauben parallel gegenziehen.
-- [ ] Die Drucksensoren müssen evt. beim Säulenventil nochmal kalibriert werden.
 
 # 11. pH Valve 
 
