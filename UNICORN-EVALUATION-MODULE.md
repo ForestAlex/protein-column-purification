@@ -17,3 +17,12 @@
 
 * Bei UV-Linie ist der Wert auf meistens exakt 2 mm angezeigt.
 
+
+### Manuelle Analyse der Kurve
+
+* mit vertikalem Ergebniscursor punktweise
+* oder durch Markieren (Ziehen über) einen Bereich als Tabelle
+* **Zoomen:** mit Halten der linken Maustaste und ziehen über zu vergrößernden Bereich
+* **Herauszoomen:** mit Doppelklick auf linke Maustaste
+
+! Je kleiner die Säule, desto wichtiger das System mit den Puffern einzuspülen (z.B. bei 1 ml Säulenvolumen). **Wichtig für die Ribosomenaufreinigung.**
