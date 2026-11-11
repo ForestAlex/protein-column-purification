@@ -44,3 +44,5 @@
 ? Druck ist sehr hoch (höher als 0.2 MPa). ! Dann zuerst den Filter tauschen. Ansonsten den Restriktor kalibrieren.
 
 ? Druck bricht ein an gewissen Stellen. ! Wenn ÄKTA ein Ventil dreht, dann könnte ÄKTA auf eine Sackgasse treffen und extrem hohen Druck aufbauen (z.B. Injektionsventil) und die ÄKTA fährt daher den Druck stark runter. 
+
+**? Druckalarm bei Ethanol.** ! Dies ist der höheren Viskosität geschuldet. Unter _System Control_ und _System Settings_ den Fractionator Wash von 20 ml auf 10 ml herunterfahren.
