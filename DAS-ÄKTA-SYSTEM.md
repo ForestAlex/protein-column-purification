@@ -102,6 +102,20 @@ Sehr stabil, kaum Notwendigkeit für Kalibrierung. Mit einem schwarzen Ring: **F
 
 ! ENTGASUNG: Nach der Säule sollte sich der Druck nicht auf 0 absenken. Der Flow Restriktor garantiert einen Gegendruck, damit nachher nicht der Puffer plötzlich entgast.
 
+**Flow Restrictor**
+
+_System Flow Restrictor_ auf die Pumpe setzen (über Drucksensor) (siehe Abb. 22). Dann an der Schraube bei einem Fluss von 2.3 ml/min drehen, bis der _System Pressure Sensor_ auf 0.2 MPa steht.
+
+**Rotor Start Ventile**
+
+Flussweg ist standardmäßig offen und in der Mitte sitzt ein Rotor, der sich dreht. Wenn es ein Problem gibt:
+
+- [ ] Alle Tubings entfernen. (Einmal schauen, wie die Beschriftungen sind, damit man es wieder anschließen kann, z.B. SYR = syringe, SYS/P = system/system pressure).
+- [ ] Mit einem Torck-20 Schraubenzieher darf man an der eigenen ÄKTA arbeiten. Den Stator des Ventils dabei herunterschrauben.
+- [ ] Die Statoren und den kleinen Rotor mit ultraschall oder Isopropanol reinigen.
+- [ ] Nun den kleinen Rotor zuerst an der ÄKTA einsetzen (siehe Abb. 23) und dann die Schrauben parallel gegenziehen.
+- [ ] Die Drucksensoren müssen evt. beim Säulenventil nochmal kalibriert werden.
+
 # 11. pH Valve 
 
 pH-Elektrode muss kalibriert werden und muss angeschlossen werden unter Anschluss _pH-valve_.
@@ -131,3 +145,5 @@ Die Plattenadaptoren werden automatisch erkannt. Die Kamera macht sogar bei 96-w
 
 * Beispielsweise verschiedene Säulen einschalten.
 * Beispielsweise verschiedene Detektoren zwischenschalten.
+
+  
