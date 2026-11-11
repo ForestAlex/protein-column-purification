@@ -8,6 +8,8 @@
 - [ ] 4. Fractionation Setting (**Vorschlag: über ein gemeinsames Outlet-Valve größere Volumen sammeln**
 - [ ] 5. Waschen Settings
 - [ ] 6. Elution Settings
+     * Für eine Stufenelution mit Upflow gut.
+     * Bei linearem Gradienten nie mit Upflow. Immer Säule im Downflow spülen.
 - [ ] 7. Fraktionen Settings
       ! bei F9T (haben wir nicht) muss man vordefinieren, welche Platte man verwendet
 - [ ] 8. Reequilibration von Column
