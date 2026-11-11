@@ -14,6 +14,7 @@
 - [ ] Mit Klick auf diesen Eintrag in der Legende kann man _Color_ etc. ändern. Dabei ändert sich automatisch auch die Beschriftung auf der _y-Achse_ mit.
 - [ ] Mit Klick auf die _x-Achse_ kann man CV, ml, min umtauschen.
 - [ ] Mit Hover über _x-Achse_ kann man **benannte** Methodenschritte grau hinterlegen.
+- [ ] Peakkurve analysieren. **Je größer der Oligomerisierungszustand** (oder mit Schulter) desto später eluiert es von Säule, da es höhere Ladungen trägt.
 
 * Bei UV-Linie ist der Wert auf meistens exakt 2 mm angezeigt.
 
