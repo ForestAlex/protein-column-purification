@@ -1,8 +1,9 @@
 # Unicorn Method Editor
 
 - [ ] 1. System, für welches man die Methode programmieren möchte, auswählen.
-- [ ] 2. Vordefinierte Methode auswählen. Automatisch: _Unicorn lädt Schritte und reiht sie aneinander._
+- [ ] 2a. Vordefinierte Methode auswählen. Automatisch: _Unicorn lädt Schritte und reiht sie aneinander._
       * Interessant ist die **Phase Library**.
+- [ ] 2b. Wichtig! Methodenschritte können mit Rechtsklick umbenannt werden. Dies hilft sehr speziell später im _Evaluation Module_.
 - [ ] 3. Column, Flow Rate, Monitor Settings einstellen (möglich: enable pH monitoring)
 - [ ] 4. Fractionation Setting (**Vorschlag: über ein gemeinsames Outlet-Valve größere Volumen sammeln**
 - [ ] 5. Waschen Settings
