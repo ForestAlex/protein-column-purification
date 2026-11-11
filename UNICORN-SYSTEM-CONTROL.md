@@ -49,7 +49,7 @@ Ausführen über _Insert_ → _Execute_. Dann fängt das System an zu laufen.
 
 ## System Wash
 
-Wäscht das System in genau der bestimmten Konzentration an %B. Es schaltet die Column immer automatisch in _Bypass_.
+Wäscht das System in genau der bestimmten Konzentration an %B. Es schaltet die Column immer automatisch in _Bypass_. Wenn ein Fractionator verwendet wird, hilft ein _Akkumulator Wash_ (siehe im _Method Editor_) und die Schläuche des Fractionators müssen in einen Abfall füllen.
 
 ## Druckalarm
 
