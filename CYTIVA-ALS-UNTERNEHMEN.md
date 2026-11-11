@@ -28,3 +28,4 @@ Für die Produkte siehe Abb. 15.
 ### Protein Select
 
 * ProteinSelect resin tag: spaltet sich automatisch und lässt keinen Rest
+* kann leider nur N-terminal verwendet werden
