@@ -12,6 +12,7 @@
      * Bei linearem Gradienten nie mit Upflow. Immer Säule im Downflow spülen.
 - [ ] 7. Fraktionen Settings
       ! bei F9T (haben wir nicht) muss man vordefinieren, welche Platte man verwendet
+      ! Größe der Fractionation: In _Column Handling_ im _System Control_ nach **halber Peakgröße** einstellen (z.B. Peakwidth = 3 ml, Fraktionsgröße = 1.5 ml).
 - [ ] 8. Reequilibration von Column
       ! _Fill the system with the selected buffer._ (A1)
       ! _Fill the system with the selected buffer._ (A2) mit Wasser
