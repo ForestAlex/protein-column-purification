@@ -13,6 +13,7 @@
 - [ ] 7. Fraktionen Settings
       ! bei F9T (haben wir nicht) muss man vordefinieren, welche Platte man verwendet
       ! Größe der Fractionation: In _Column Handling_ im _System Control_ nach **halber Peakgröße** einstellen (z.B. Peakwidth = 3 ml, Fraktionsgröße = 1.5 ml).
+      ! Mit _Peak-to-loop_ könnte man den Peak wieder "zurückspeichern" in einen Loop (**F1** für Instruktionen).
 - [ ] 8. Reequilibration von Column
       ! _Fill the system with the selected buffer._ (A1)
       ! _Fill the system with the selected buffer._ (A2) mit Wasser
@@ -87,3 +88,9 @@ Methodenschleife = Methoden so programmieren, dass sich diese aneinanderreihen k
 - [ ] Dann Methode **1** auswählen.
 - [ ] Dann Methode **2** auswählen. Die _Start Condition_ kann _immediately_ oder _at ready command_ ausgewählt werden. (Das _ready command_ kommt dann von der ersten Methode.)
        
+## Peak-to-loop
+
+Requirements: Gewisse Injektionsventile und gewisse Auslassventile sind notwendig.
+- [ ] Bei Fractionator einstellbar.
+- [ ] Man **muss** eine neue Kapillarverbindung schaffen, siehe **F1** in Tabelle. Die muss manuell eingebaut werden.
+- [ ] Das Methodentemplate im Hintergrund wurde richtig angepasst.
