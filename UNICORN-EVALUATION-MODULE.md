@@ -27,3 +27,20 @@
 * **Herauszoomen:** mit Doppelklick auf linke Maustaste
 
 ! Je kleiner die Säule, desto wichtiger das System mit den Puffern einzuspülen (z.B. bei 1 ml Säulenvolumen). **Wichtig für die Ribosomenaufreinigung.**
+
+
+### Fehler welche passieren
+
+* Im _Method Evaluator_ mit **Only show suggested** Columns kann man vorsortieren, welche Säulen für das System empfohlen sind.
+  
+? Driftende Basislinie in UV-Linie: **Luftblase in Flusszelle**. ! In diesem Fall einen _System Wash_ durchführen. Oder: Mit _Hold_ (☀) das System einfrieren.
+
+? Peak kommt bei der Applikation, nicht erst in Elution. ! Dies ist entweder _Flowtrough_ oder eine _Überladung der Säule_. 
+
+? Conductivity kommt nicht schnell auf Baseline in Equilibration zurück. Dies zeigt z.B. oft, dass man ein größeres System verwendet mit größeren Totvolumen.
+
+? Manche Häkchen oder Funktionen im _Method Editor_ waren nicht verfügbar obwohl sehr neue Funktion. Dies kann sein, wenn z.B. der Treiber und das System nicht mehr zusammenpassen. Treiber aktualisieren.
+
+? Druck ist sehr hoch (höher als 0.2 MPa). ! Dann zuerst den Filter tauschen. Ansonsten den Restriktor kalibrieren.
+
+? Druck bricht ein an gewissen Stellen. ! Wenn ÄKTA ein Ventil dreht, dann könnte ÄKTA auf eine Sackgasse treffen und extrem hohen Druck aufbauen (z.B. Injektionsventil) und die ÄKTA fährt daher den Druck stark runter. 
