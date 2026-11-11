@@ -4,7 +4,7 @@ Danaher: Cytiva, Aldevron, Beckman Coulter, IDT, Leica, abcam, Cepheid, Molecula
 
 Telefonnummer: Westdeutschland: +49 800 90 80 771
 
-Email (Verbrauchsmittel): wolfgang.wirtz@cytiva.com, scientificsupport.EMEA.CENTRAL@cytiva.com, armin.schubert@cytiva.com
+Email (Verbrauchsmittel): wolfgang.wirtz@cytiva.com, scientificsupport.EMEA.CENTRAL@cytiva.com, armin.schubert@cytiva.com, **robert.bronske@cytiva.com**
 
 Österreich: balint.zombori@cytiva.com
 
@@ -15,3 +15,16 @@ Email (Verbrauchsmittel): wolfgang.wirtz@cytiva.com, scientificsupport.EMEA.CENT
 * Consumables Specialist
 * Filtration Specialist
 * BioProcess Team (upscaling)
+
+Für die Geschichte siehe Abb. 14.
+
+Für die Produkte siehe Abb. 15.
+
+* Isolation mit Beads
+* HyClone mit Zellkulturmedien
+* Aufreinigung und Filtration mit Whatman
+* Hilfreich: **Purify** tool, **Biacore Simul8**, **Filter selector**
+
+### Protein Select
+
+* ProteinSelect resin tag: spaltet sich automatisch und lässt keinen Rest
