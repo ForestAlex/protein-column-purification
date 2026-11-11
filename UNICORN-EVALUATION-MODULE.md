@@ -15,7 +15,9 @@
 - [ ] Mit Klick auf die _x-Achse_ kann man CV, ml, min umtauschen.
 - [ ] Mit Hover über _x-Achse_ kann man **benannte** Methodenschritte grau hinterlegen.
 - [ ] Peakkurve analysieren. **Je größer der Oligomerisierungszustand** (oder mit Schulter) desto später eluiert es von Säule, da es höhere Ladungen trägt.
-
+- [ ] Man kann sich mehrere x- und y-Achse verwenden.
+- [ ] Export mit _.csv_ möglich.
+      
 * Bei UV-Linie ist der Wert auf meistens exakt 2 mm angezeigt.
 
 
@@ -27,6 +29,27 @@
 * **Herauszoomen:** mit Doppelklick auf linke Maustaste
 
 ! Je kleiner die Säule, desto wichtiger das System mit den Puffern einzuspülen (z.B. bei 1 ml Säulenvolumen). **Wichtig für die Ribosomenaufreinigung.**
+
+### Exportieren
+
+Export als _.csv_ möglich. Man kann auch _Reports_ erstellen.
+
+### Dokumentation
+
+Unter _Documentation_ kann man _Text Instructions_ und **Save as** die Originalmethode verwenden. (Also: Wenn ein Ergebnis gut passt, dann kann man die Methode so wieder reproduzieren.
+
+Unter _Documentation_ kann man in _Notes_, _Columns_, _Method information_ wichtige Informationen über den Run bekommen und wie das System bestückt ist.
+
+### Integration
+
+! Entweder über Orientierung an Fraktionen. Oder, dies ausklammern und dann kann man einen Bereich markieren. Am besten bei manueller Markierung nicht in den Peak hineinschreiben. Sondern, man sollte die Baseline für den Computer zur Berechnung überlassen.
+
+Wenn man _Align Peaks to Fraction_ herausnimmt, kann man die kleinen blauen Marker verschieben. Dann mit **Rechtsklick** und _Split_ kann man **Schultern der Peaks** teilen. Die Peaktabelle wird entsprechend angepasst.
+
+
+- [ ] Extinktionskoeffizienten direkt richtig für das Protein eingeben. Dann wird die **Proteinmenge** ziemlich richtig berechnet.
+
+- [ ] Dies als **Anhaltspunkt** für den Verlust in den Aufreinigungen oder die Wahl der nächsten Säule in Kapazität verwenden.
 
 
 ### Fehler welche passieren
