@@ -23,7 +23,7 @@ Auswerten der Integration mit verschiedenen Parametern.
 - [ ] **Asymmetrie am Anfang**: Dies bedeutet es gibt "Abkürzungen" manche kommen zu früh. Dies indiziert Risse (schwer handzuhaben) oder Luft (Säule verkehrt herum einhängen und versuchen, die Luft herauszuwaschen).
 - [ ] **Plates/m** im Column: Wieviele Trennstufen hat die Säule? Je mehr, desto besser. (ca. 35k für SEC Column)
 - [ ] **Plattenhöhe**: Je weniger hoch die Platte, desto besser.
-- [ ] **Reduzierte Plattenhöhe**: Plattenhöhe dividiert pro Partikeldurchmesser. Wieviele Partikel braucht man um eine Trennebene aufzubauen? Ideal: **1-2** Partikel für Ebene. Wenn es eine Größenverteilung gibt, braucht es **2+** Partikel.
+- [ ] **Reduzierte Plattenhöhe**: Plattenhöhe dividiert pro Partikeldurchmesser. Wieviele Partikel braucht man um eine Trennebene aufzubauen? Ideal: **1-2** Partikel für Ebene. Wenn es eine Größenverteilung gibt, braucht es **2+** Partikel. **3-5** ist für hochauflösende Säulen akzeptabel.
 
 ## Benutzerdefinierte Säule
 - [ ] In _Method Editor_ unter _Column Handling_ (Symbol mit den Säulen im Header) mit _New_ mit _Technique_ und _Resin Type_ einfüllen in einen gewissen _Säulentyp_.
