@@ -15,6 +15,7 @@
 - orange = 0.50 mm (kleinerer Durchmesser, für bessere Auflösung, auch zu Fraktionator)
 - blau = 0.25 mm
 
+* In _System Control_ unter _System Settings_ sind die **Tubing und Delay volumes** eingefügt. Wenn man ein **neues Tubing verwendet**, dann dieses Volumen dazuaddieren und neu einstellen.
 
 # Neue Konnektoren an ÄKTA anschließen
 
