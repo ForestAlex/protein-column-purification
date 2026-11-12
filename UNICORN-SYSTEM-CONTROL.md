@@ -26,6 +26,7 @@
 
 ! Bei **PAUSE** (⏸) bleiben die Ventile und Druckalarme wie in der Methode, der Run wird nicht zwischengespeichert.
 
+`Manche Einstellungen (System Settings): z.B. Waschgeschwindigkeit des Fractionssammlers (zum Abschalten) oder Cassette configuration sowie System High Pressure (wenn man mit hochauflösenden Säulen arbeitet) anpassen. Für den Probensammler kann man Akkumulator vs. Drop Sync.`
 
 ### Log file
 
