@@ -20,6 +20,9 @@
       
 * Bei UV-Linie ist der Wert auf meistens exakt 2 mm angezeigt.
 
+* Man darf mit dem System über das Mixerumgangsventil auch Probe laden.
+
+* Bei zu niedrigem Druck den _Flow Restrictor_ an den _System Pressure Monitor_ anhängen.
 
 ### Manuelle Analyse der Kurve
 
@@ -50,6 +53,21 @@ Wenn man _Align Peaks to Fraction_ herausnimmt, kann man die kleinen blauen Mark
 - [ ] Extinktionskoeffizienten direkt richtig für das Protein eingeben. Dann wird die **Proteinmenge** ziemlich richtig berechnet.
 
 - [ ] Dies als **Anhaltspunkt** für den Verlust in den Aufreinigungen oder die Wahl der nächsten Säule in Kapazität verwenden.
+
+### Überlagerung von Peaks
+
+- [ ] In der File-Übersicht zwei auswählen und mit Rechtsklick gemeinsam öffnen.
+- [ ] Unter _Axes_ mit [X] _Zero at Phase start_ (z.B. Elution) kann man die Peaks überlagern.
+- Gestrige Säule HighTrap blue (30 µm) war 1/3 so groß wie die Q Säule (90 µm). Daher konnte man Oligomerzustände besser trennen.
+
+Bei **ÄKTA GO** vs. **ÄKTA PURE** arbeitet man nur mit einer Pumpe und ist ungenauer.
+
+
+### Evaluation Classic
+
+- [ ] _Operations_ mit _Open Curves to Compare_ kann man Kurven spiegeln, überlagern. 
+- [ ] Differential, wo die Steigung des UV-Signals am höchsten ist, kann man verwenden, um eine Stufe einzufügen. Mit _Operations_ (muss x-Achse in Zeit haben) und _First Order_ Radiobutton kann man die Ableitung der Kurve überlagern. Mit dem vertikalen Marker kann man in den maximalen Wert der Ableitung gehen und mit **Conc. %B** angezeigt diesen Wert von **Conc. %B** an diesem linearen Gradienten für ein Stufenverfahren verwenden. (**Nicht** ins Retentionsmaximum.)
+- [ ] _Activity histogram_ kann man z.B. für Enzyme ins Chromatogramm hinzufügen.
 
 
 ### Fehler welche passieren
