@@ -11,3 +11,8 @@ Man gelangt in das _Administator Modul_ über z.B. andere Module im _Home_ (link
 - [ ] Software kann **aktualisiert werden** über _Software download_ (online von Cytiva) und dann kann man über _System Properties_ und _Import_ das heruntergeladene _.zip_ File hochladen. **Während dies Treibersoftware installiert wird (blinkt viel) nicht ausschalten, sondern einfach durchlaufen lassen.**
 
 
+#### Database Management
+
+Wenn alte Methoden oder Resultate offen sind, dann kann man diese hier schließen, damit Überschreiben wieder möglich wird.
+
+Wenn die Installation **lokal** ist, dann kann dieses Backup unter `C:\ProgamData\Cytiva\UNICORN Database\Backup` gespeichert werden. Am besten den Backup-Folder zu etwas in der Cloud ändern.
