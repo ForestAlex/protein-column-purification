@@ -51,6 +51,17 @@ Für kleineren Sensor siehe Abb. 24. gänzlich ausbauen und dann
 - [ ] Sind Filter im Mixer auszutauschen?
 
 
+# Neues Modul/Ventil einbauen
+
+Es gibt meist eine primäre Position, wo das Ventil eingebaut werden sollte auf der ÄKTA. Für diese passen die Tubing-Längen am besten. Die weiße Abdeckung an dieser Position abschrauben. Das Kabel an das neue Modul/Ventil abstecken. Jedes Ventil hat eine **Node-ID** und diese soll überprüft werden (auf der Rückseite des Moduls/Ventils einsehbar). Die **Node-ID** muss geänder werden, wenn man **zweimal dasselbe Ventil eingebaut hat**.
+
+- [ ] einbauen
+- [ ] mit Torck-20 Schrauber einstellen
+- [ ] unter _System Properties_ in der Software (Administratormodul?) neues Modul hinzufügen
+
+? Kann man Ventile umwidmen. Ja, wenn man die Node-ID ändert, dann kann man z.B. ein Einfachsäulenventil zu einem Einfachauslassventil umbauen. Die Beschriftung passt allerdings nicht.
+
+
 # 0. Tubing und Verbindungen
 
 Tubing nicht mit Werkzeugen festziehen. Kapillaren 1-2 mm abschneiden von dem Tubing. Wenn die _fingertight connectoren_ sich gar nicht mehr bewegen, sollte man diese austauchen.
