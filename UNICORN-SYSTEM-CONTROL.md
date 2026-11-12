@@ -99,3 +99,15 @@ Rote Connectoren: für weichere Säulen (wenn diese auch rot sind)
 
 Schwarze Connectoren: ältere Connectoren, härteres Material
 
+
+## Kalibrierung
+
+Für die Kalibierung von z.B. der _System Pressure_ muss man das Tubing nach dem Sensor abschrauben und den nun gemessenen Druck als 0-Druck einstellen (z.B. bei warm/kalt oder nach Umzügen).
+
+Der _Conductivity Sensor_ am besten einfach auf Fabrikseinstellungen zurücksetzen.
+
+Unter _UV cell path length (2nd)_ kann man die Pfadlänge der Zelle des UV-Sensors ändern.
+
+## pH Sensor kalibrieren
+
+Über _System_ und _Calibration_ mit pH für Buffer 1 und pH für Buffer 2 dann mit Slope <80% kann Kalibrierung akzeptiert werden. Die pH-Elektrode sollte täglich kalibriert werden. Die Lagerlösung ist eine **1:1** Mischung aus **pH = 4 Puffer und 1 M Kaliumnitrat**. Diese Lösung ist anders als das Standard **3 M KCl** für langsame, aber feinere Laborelektroden.
