@@ -142,13 +142,15 @@ Sehr stabil, kaum Notwendigkeit für Kalibrierung. Mit einem schwarzen Ring: **F
 
 ! ENTGASUNG: Nach der Säule sollte sich der Druck nicht auf 0 absenken. Der Flow Restriktor garantiert einen Gegendruck, damit nachher nicht der Puffer plötzlich entgast.
 
-
+`Für die gesamten Sensoren siehe die Dokumentation in UNICORN-SYSTEM-CONTROL.md für Kalibrierungen.`
 
 # 11. pH Valve 
 
 pH-Elektrode muss kalibriert werden und muss angeschlossen werden unter Anschluss _pH-valve_.
 
 ! Lagerung der pH-Elektrode (white dummy) sollte außerhalb der ÄKTA gesammelt werden, da ansonsten die Buffer in die pH-Elektrodenwände schlecht einwandern.
+
+`Für die gesamten Sensoren siehe die Dokumentation in UNICORN-SYSTEM-CONTROL.md für Kalibrierungen.`
 
 # 12. Outlet valve
 
